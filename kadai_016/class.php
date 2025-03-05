@@ -16,8 +16,8 @@
             private $price;
 
             // メソッドを定義する
-            public function show_price(int $price) {
-                echo $this->price = $price;
+            public function show_price() {
+                echo $this->price;
             }
 
             // コンストラクタを定義する
@@ -36,8 +36,8 @@
             private $weight;
 
             // メソッドを定義する
-            public function show_height(int $height) {
-                echo $this->height = $height;
+            public function show_height() {
+                echo $this->height;
             }
 
             // コンストラクタを定義する
@@ -60,9 +60,9 @@
         echo '<br>';
 
         // メソッドにアクセスして実行する
-        $food->show_price(250);
+        $food->show_price();
         echo '<br>';
-        $animal->show_height(60);
+        $animal->show_height();
         ?>
     </p>
 </body>
